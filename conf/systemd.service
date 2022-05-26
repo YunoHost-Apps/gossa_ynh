@@ -1,0 +1,16 @@
+[Unit]
+Description=Gossa service for __DATADIR__
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+User=__APP__
+Group=__APP__
+WorkingDirectory=__FINALPATH__/
+ExecStart=__FINAL_PATH__/gossa -h 127.0.0.1 -p __PORT__ __DATADIR__
+Restart=always
+RestartSec=30
+
+[Install]
+WantedBy=multi-user.target

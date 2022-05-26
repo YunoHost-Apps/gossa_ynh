@@ -1,0 +1,6 @@
+SOURCE_URL=https://github.com/pldubouilh/gossa/releases/download/v0.2.1/gossa-linux-arm
+SOURCE_SUM=3ae6b2f0b8a9274ce875519c4cc8c7cb4151823beac42a29ed363da09c222c29
+SOURCE_SUM_PRG=sha256sum
+SOURCE_IN_SUBDIR=false
+SOURCE_FILENAME=gossa
+SOURCE_EXTRACT=false

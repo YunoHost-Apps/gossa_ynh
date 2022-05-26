@@ -1,0 +1,50 @@
+{
+    "name": "Gossa",
+    "id": "gossa",
+    "packaging_format": 1,
+    "description": {
+        "en": "Fast and simple webserver for your files",
+        "fr": "Serveur web simple et rapide pour vos fichiers"
+    },
+    "version": "0.2.1~ynh1",
+    "url": "https://github.com/pldubouilh/gossa",
+    "upstream": {
+        "license": "MIT",
+        "website": "https://github.com/pldubouilh/gossa",
+        "code": "https://github.com/pldubouilh/gossa"
+    },
+    "license": "MIT",
+    "maintainer": {
+        "name": "eric_G"
+    },
+    "requirements": {
+        "yunohost": ">= 4.3.0"
+    },
+    "multi_instance": true,
+    "services": [
+        "nginx"
+    ],
+    "arguments": {
+        "install" : [
+            {
+                "name": "domain",
+                "type": "domain"
+            },
+            {
+                "name": "path",
+                "type": "path",
+                "example": "/gossa",
+                "default": "/gossa"
+            },
+            {
+                "name": "is_public",
+                "type": "boolean",
+                "help": {
+                    "en": "You must activate public site if you want to connect a client player to Gossa. This can be changed later via the webadmin.",
+                    "fr": "Vous devez activer site public si vous souhaitez connecter un lecteur client à Gossa. Vous pourrez changer ceci plus tard via la webadmin."
+                },
+                "default": true
+            }
+        ]
+    }
+}
