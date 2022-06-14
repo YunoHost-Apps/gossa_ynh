@@ -104,7 +104,7 @@ ynh_add_systemd_config
 #=================================================
 ynh_script_progression --message="Integrating service in YunoHost..."
 
-yunohost service add $app --description "Webserver for your files"
+yunohost service add $app --description="Webserver for your files" --log="/var/log/$app/$app.log"
 
 #=================================================
 # START SYSTEMD SERVICE
