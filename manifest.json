@@ -6,7 +6,7 @@
         "en": "Fast and simple webserver for your files",
         "fr": "Serveur web simple et rapide pour vos fichiers"
     },
-    "version": "0.2.1~ynh1",
+    "version": "0.2.2~ynh1",
     "url": "https://github.com/pldubouilh/gossa",
     "upstream": {
         "license": "MIT",
@@ -18,7 +18,7 @@
         "name": "eric_G"
     },
     "requirements": {
-        "yunohost": ">= 4.3.0"
+        "yunohost": ">= 11.0.9"
     },
     "multi_instance": true,
     "services": [

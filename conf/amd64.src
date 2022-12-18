@@ -1,5 +1,5 @@
-SOURCE_URL=https://github.com/pldubouilh/gossa/releases/download/v0.2.1/gossa-linux-x64
-SOURCE_SUM=1c7ac07fb479a14faf02701e7850c10def44c4c0175094ca2cebf2fec1d153eb
+SOURCE_URL=https://github.com/pldubouilh/gossa/releases/download/v0.2.2/gossa-linux-x64
+SOURCE_SUM=2732045eb0e5ff2061c78ce1d9facfb1fd921f04a3a243e1f945fb5df4953e21
 SOURCE_SUM_PRG=sha256sum
 SOURCE_IN_SUBDIR=false
 SOURCE_FILENAME=gossa
