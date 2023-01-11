@@ -32,7 +32,7 @@ A fast and simple webserver for your files, that's dependency-free and with unde
     ✨ PWA enabled
 
 
-**Shipped version:** 0.2.2~ynh1
+**Shipped version:** 0.2.2~ynh2
 
 ## Screenshots
 
