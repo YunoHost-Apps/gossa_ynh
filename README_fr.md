@@ -36,11 +36,10 @@ A fast and simple webserver for your files, that's dependency-free and with unde
 
 ## Captures d'écran
 
-![Capture d'écran de Gossa](./doc/screenshots/screenshot.gif)
+![Capture d'écran de Gossa](./doc/screenshots/screenshot.png)
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://github.com/pldubouilh/gossa>
 * Dépôt de code officiel de l'app : <https://github.com/pldubouilh/gossa>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_gossa>
 * Signaler un bug : <https://github.com/YunoHost-Apps/gossa_ynh/issues>
