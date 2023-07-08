@@ -38,6 +38,8 @@ ram.runtime = "50M"
 [resources]
         [resources.sources.main]
         in_subdir = false
+        extract = false
+        rename = "gossa"
         arm64.url = "https://github.com/pldubouilh/gossa/releases/download/v1.0.0/gossa-linux-arm64"
         arm64.sha256 = "2c1449e5baac8f526b22a8cef0ccf81dc1d6f07bf115da8411a945d3a527db60"
         amd64.url = "https://github.com/pldubouilh/gossa/releases/download/v1.0.0/gossa-linux-x64"
