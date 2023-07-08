@@ -8,7 +8,7 @@ Type=simple
 User=__APP__
 Group=__APP__
 WorkingDirectory=__INSTALL_DIR__/
-ExecStart=__FINAL_PATH__/gossa -h 127.0.0.1 -p __PORT__ __DATA_DIR__
+ExecStart=__INSTALL_DIR__/gossa -h 127.0.0.1 -p __PORT__ __DATA_DIR__
 Restart=always
 RestartSec=30
 
