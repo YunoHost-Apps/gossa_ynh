@@ -12,7 +12,6 @@ maintainers = ["eric_G"]
 [upstream]
 license = "MIT"
 code = "https://github.com/pldubouilh/gossa"
-website = "https://github.com/pldubouilh/gossa"
 
 [integration]
 yunohost = ">= 11.1.21"
