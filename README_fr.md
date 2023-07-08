@@ -5,15 +5,16 @@ It shall NOT be edited by hand.
 
 # Gossa pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/gossa.svg)](https://dash.yunohost.org/appci/app/gossa) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/gossa.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/gossa.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/gossa.svg)](https://dash.yunohost.org/appci/app/gossa) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/gossa.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/gossa.maintain.svg)
+
 [![Installer Gossa avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=gossa)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer Gossa rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer Gossa rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 A fast and simple webserver for your files, that's dependency-free and with under 250 lines of code, easy to review.
 
@@ -34,13 +35,13 @@ A fast and simple webserver for your files, that's dependency-free and with unde
 
 **Version incluse :** 0.2.2~ynh2
 
-## Captures d'écran
+## Captures d’écran
 
-![Capture d'écran de Gossa](./doc/screenshots/screenshot.png)
+![Capture d’écran de Gossa](./doc/screenshots/screenshot.png)
 
 ## Documentations et ressources
 
-* Dépôt de code officiel de l'app : <https://github.com/pldubouilh/gossa>
+* Dépôt de code officiel de l’app : <https://github.com/pldubouilh/gossa>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_gossa>
 * Signaler un bug : <https://github.com/YunoHost-Apps/gossa_ynh/issues>
 
@@ -56,4 +57,4 @@ ou
 sudo yunohost app upgrade gossa -u https://github.com/YunoHost-Apps/gossa_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
