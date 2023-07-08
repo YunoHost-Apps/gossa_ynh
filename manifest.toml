@@ -5,7 +5,7 @@ name = "Gossa"
 description.en = "Fast and simple webserver for your files"
 description.fr = "Serveur web simple et rapide pour vos fichiers"
 
-version = "0.2.2~ynh2"
+version = "1.0.0~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -13,22 +13,19 @@ maintainers = ["eric_G"]
 license = "MIT"
 code = "https://github.com/pldubouilh/gossa"
 website = "https://github.com/pldubouilh/gossa"
-cpe = "???" # FIXME: optional but recommended if relevant, this is meant to contain the Common Platform Enumeration, which is sort of a standard id for applications defined by the NIST. In particular, Yunohost may use this is in the future to easily track CVE (=security reports) related to apps. The CPE may be obtained by searching here: https://nvd.nist.gov/products/cpe/search. For example, for Nextcloud, the CPE is 'cpe:2.3:a:nextcloud:nextcloud' (no need to include the version number)
-fund = "???" # FIXME: optional but recommended (or remove if irrelevant / not applicable). This is meant to be an URL where people can financially support this app, especially when its development is based on volunteers and/or financed by its community. YunoHost may later advertise it in the webadmin.
 
 [integration]
-yunohost = ">= 11.0.9"
-architectures = "all" # FIXME: can be replaced by a list of supported archs using the dpkg --print-architecture nomenclature (amd64/i386/armhf/arm64), for example: ["amd64", "i386"]
+yunohost = ">= 11.1.21"
+architectures = ["amd64", "arm64", "armhf"]
 multi_instance = true
-ldap = "?" # FIXME: replace with true, false, or "not_relevant". Not to confuse with the "sso" key : the "ldap" key corresponds to wether or not a user *can* login on the app using its YunoHost credentials.
-sso = "?" # FIXME: replace with true, false, or "not_relevant". Not to confuse with the "ldap" key : the "sso" key corresponds to wether or not a user is *automatically logged-in* on the app when logged-in on the YunoHost portal.
-disk = "50M" # FIXME: replace with an **estimate** minimum disk requirement. e.g. 20M, 400M, 1G, ...
-ram.build = "50M" # FIXME: replace with an **estimate** minimum ram requirement. e.g. 50M, 400M, 1G, ...
-ram.runtime = "50M" # FIXME: replace with an **estimate** minimum ram requirement. e.g. 50M, 400M, 1G, ...
+ldap = false
+sso = false
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
 
 [install]
     [install.domain]
-    # this is a generic question - ask strings are automatically handled by Yunohost's core
     type = "domain"
     full_domain = true
 
@@ -41,13 +38,14 @@ ram.runtime = "50M" # FIXME: replace with an **estimate** minimum ram requiremen
 [resources]
         [resources.sources.main]
         in_subdir = false
-        arm64.url = "https://github.com/pldubouilh/gossa/releases/download/v0.2.2/gossa-linux-arm64"
-        arm64.sha256 = "f5f924cc78172fe7a46d5a59455e377e0461d03576d846a1da50e1a0cb2f7b12"
-        amd64.url = "https://github.com/pldubouilh/gossa/releases/download/v0.2.2/gossa-linux-x64"
-        amd64.sha256 = "2732045eb0e5ff2061c78ce1d9facfb1fd921f04a3a243e1f945fb5df4953e21"
-        armhf.url = "https://github.com/pldubouilh/gossa/releases/download/v0.2.2/gossa-linux-arm"
-        armhf.sha256 = "b57b46c883246e1c929aaa13c482183d575b72636fab6e203b134d31ec74bd6e"
+        arm64.url = "https://github.com/pldubouilh/gossa/releases/download/v1.0.0/gossa-linux-arm64"
+        arm64.sha256 = "2c1449e5baac8f526b22a8cef0ccf81dc1d6f07bf115da8411a945d3a527db60"
+        amd64.url = "https://github.com/pldubouilh/gossa/releases/download/v1.0.0/gossa-linux-x64"
+        amd64.sha256 = "09673d9e9aee013fd9b3c0c06102111af792e8fca48913c9c60a445efd0dc314"
+        armhf.url = "https://github.com/pldubouilh/gossa/releases/download/v1.0.0/gossa-linux-arm"
+        armhf.sha256 = "9fc83341f5ebba5f4804b091760b36bbea99fbc055b1cdd7928a34bd2f1f28db"
 
+    [resources.ports]
 
     [resources.system_user]
 
@@ -57,3 +55,6 @@ ram.runtime = "50M" # FIXME: replace with an **estimate** minimum ram requiremen
 
     [resources.permissions]
     main.url = "/"
+
+    [resources.apt]
+    packages = "ffmpeg"
