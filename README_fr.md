@@ -33,7 +33,7 @@ A fast and simple webserver for your files, that's dependency-free and with unde
     ✨ PWA enabled
 
 
-**Version incluse :** 0.2.2~ynh2
+**Version incluse :** 1.0.0~ynh1
 
 ## Captures d’écran
 
@@ -41,6 +41,7 @@ A fast and simple webserver for your files, that's dependency-free and with unde
 
 ## Documentations et ressources
 
+* Site officiel de l’app : <https://github.com/pldubouilh/gossa>
 * Dépôt de code officiel de l’app : <https://github.com/pldubouilh/gossa>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_gossa>
 * Signaler un bug : <https://github.com/YunoHost-Apps/gossa_ynh/issues>
