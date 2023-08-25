@@ -14,7 +14,7 @@ license = "MIT"
 code = "https://github.com/pldubouilh/gossa"
 
 [integration]
-yunohost = ">= 11.1.21"
+yunohost = ">= 11.2"
 architectures = ["amd64", "arm64", "armhf"]
 multi_instance = true
 ldap = false
@@ -26,7 +26,6 @@ ram.runtime = "50M"
 [install]
     [install.domain]
     type = "domain"
-    full_domain = true
 
     [install.init_main_permission]
     help.en = "You must activate public site if you want to connect a client player to Gossa. This can be changed later via the webadmin."
