@@ -42,7 +42,7 @@ A fast and simple webserver for your files, that's dependency-free and with unde
 ## Documentation and resources
 
 * Upstream app code repository: <https://github.com/pldubouilh/gossa>
-* YunoHost documentation for this app: <https://yunohost.org/app_gossa>
+* YunoHost Store: <https://apps.yunohost.org/app/gossa>
 * Report a bug: <https://github.com/YunoHost-Apps/gossa_ynh/issues>
 
 ## Developer info
