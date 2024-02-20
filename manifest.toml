@@ -7,14 +7,14 @@ description.fr = "Serveur web simple et rapide pour vos fichiers"
 
 version = "1.0.0~ynh1"
 
-maintainers = ["eric_G"]
+maintainers = []
 
 [upstream]
 license = "MIT"
 code = "https://github.com/pldubouilh/gossa"
 
 [integration]
-yunohost = ">= 11.1.21"
+yunohost = ">= 11.2"
 architectures = ["amd64", "arm64", "armhf"]
 multi_instance = true
 ldap = false
@@ -26,7 +26,6 @@ ram.runtime = "50M"
 [install]
     [install.domain]
     type = "domain"
-    full_domain = true
 
     [install.init_main_permission]
     help.en = "You must activate public site if you want to connect a client player to Gossa. This can be changed later via the webadmin."
@@ -45,6 +44,11 @@ ram.runtime = "50M"
         amd64.sha256 = "09673d9e9aee013fd9b3c0c06102111af792e8fca48913c9c60a445efd0dc314"
         armhf.url = "https://github.com/pldubouilh/gossa/releases/download/v1.0.0/gossa-linux-arm"
         armhf.sha256 = "9fc83341f5ebba5f4804b091760b36bbea99fbc055b1cdd7928a34bd2f1f28db"
+
+        autoupdate.strategy = "latest_github_tag"
+        autoupdate.asset.arm64 = "¨gossa-linux-arm64$"
+        autoupdate.asset.amd64 = "¨gossa-linux-x64$"
+        autoupdate.asset.armh = "¨gossa-linux-arm$"
 
     [resources.ports]
 
