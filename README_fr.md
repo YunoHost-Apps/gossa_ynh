@@ -16,22 +16,21 @@ Il NE doit PAS être modifié à la main.
 
 ## Vue d’ensemble
 
-A fast and simple webserver for your files, that's dependency-free and with under 250 lines of code, easy to review.
+Un serveur Web rapide et simple pour vos fichiers, sans dépendance et avec moins de 250 lignes de code, facile à réviser.
 
-### Features
+### Fonctionnalités
 
-    🔍 files/directories browser & handler
-    📩 drag-and-drop uploader
-    🥂 fast golang static server
-    💾 90s web UI that prints in milliseconds
-    📸 video streaming & picture browser
-    ✍️ simple note editor
-    ⌨️ keyboard navigation
-    🚀 lightweight and dependency free codebase
-    🔒 >95% test coverage and reproducible builds
-    💑 easy multi account setup, read-only mode
-    ✨ PWA enabled
-
+🔍 navigateur et gestionnaire de fichiers/répertoires
+📩 téléchargeur par glisser-déposer
+🥂 serveur statique golang rapide
+💾 interface utilisateur Web des années 90 qui imprime en quelques millisecondes
+📸 streaming vidéo et navigateur d'images
+✍️ éditeur de notes simple
+⌨️ navigation au clavier
+🚀 base de code légère et sans dépendance
+🔒 >95 % de couverture de test et builds reproductibles
+💑 configuration multi-compte facile, mode lecture seule
+✨ PWA activé
 
 **Version incluse :** 1.1.2~ynh1
 
