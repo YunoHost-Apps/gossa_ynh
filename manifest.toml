@@ -5,7 +5,7 @@ name = "Gossa"
 description.en = "Fast and simple webserver for your files"
 description.fr = "Serveur web simple et rapide pour vos fichiers"
 
-version = "1.0.0~ynh1"
+version = "1.1.2~ynh1"
 
 maintainers = []
 
@@ -14,7 +14,7 @@ license = "MIT"
 code = "https://github.com/pldubouilh/gossa"
 
 [integration]
-yunohost = ">= 11.2"
+yunohost = ">= 11.2.28"
 architectures = ["amd64", "arm64", "armhf"]
 multi_instance = true
 ldap = false
@@ -38,12 +38,12 @@ ram.runtime = "50M"
         in_subdir = false
         extract = false
         rename = "gossa"
-        arm64.url = "https://github.com/pldubouilh/gossa/releases/download/v1.0.0/gossa-linux-arm64"
-        arm64.sha256 = "2c1449e5baac8f526b22a8cef0ccf81dc1d6f07bf115da8411a945d3a527db60"
-        amd64.url = "https://github.com/pldubouilh/gossa/releases/download/v1.0.0/gossa-linux-x64"
-        amd64.sha256 = "09673d9e9aee013fd9b3c0c06102111af792e8fca48913c9c60a445efd0dc314"
-        armhf.url = "https://github.com/pldubouilh/gossa/releases/download/v1.0.0/gossa-linux-arm"
-        armhf.sha256 = "9fc83341f5ebba5f4804b091760b36bbea99fbc055b1cdd7928a34bd2f1f28db"
+        arm64.url = "https://github.com/pldubouilh/gossa/releases/download/v1.1.2/gossa-linux-arm64"
+        arm64.sha256 = "e9beb98337ecc8df95015844cd3677f37265d499790b64e2ac1d56634fe6bc30"
+        amd64.url = "https://github.com/pldubouilh/gossa/releases/download/v1.1.2/gossa-linux-x64"
+        amd64.sha256 = "23a0ae14a59e24d6d652570ff13750be0750e8c491320c76fc49735cd4bb3c69"
+        armhf.url = "https://github.com/pldubouilh/gossa/releases/download/v1.1.2/gossa-linux-arm"
+        armhf.sha256 = "08d145d8c7c51182ab709059f558416cfd4fc5d0acded8491813056bf62228fa"
 
         autoupdate.strategy = "latest_github_release"
         autoupdate.asset.arm64 = "^gossa-linux-arm64$"
