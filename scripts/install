@@ -26,7 +26,6 @@ chmod +x "$install_dir/gossa"
 #=================================================
 ynh_script_progression --message="Configuring NGINX web server..." --weight=3
 
-# Create a dedicated NGINX config
 ynh_add_nginx_config
 
 ynh_add_systemd_config

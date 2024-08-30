@@ -5,7 +5,7 @@ EZ editatu eskuz.
 
 # Gossa YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/gossa.svg)](https://dash.yunohost.org/appci/app/gossa) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/gossa.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/gossa.maintain.svg)
+[![Integrazio maila](https://dash.yunohost.org/integration/gossa.svg)](https://ci-apps.yunohost.org/ci/apps/gossa/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/gossa.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/gossa.maintain.svg)
 
 [![Instalatu Gossa YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=gossa)
 
@@ -33,7 +33,7 @@ A fast and simple webserver for your files, that's dependency-free and with unde
     ✨ PWA enabled
 
 
-**Paketatutako bertsioa:** 1.0.0~ynh1
+**Paketatutako bertsioa:** 1.1.2~ynh1
 
 ## Pantaila-argazkiak
 
