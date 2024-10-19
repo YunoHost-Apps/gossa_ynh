@@ -34,8 +34,10 @@ ram.runtime = "50M"
     default = "visitors"
 
     [install.init_post_permission]
-    help.en = "Select which group can create directories, edit and upload files. This can be changed later via the webadmin."
-    help.fr = "Choisissez quel groupe peut créer des dossiers, modifier ou ajouter des fichiers. Vous pourrez changer ceci plus tard via la webadmin."
+    ask.en = "Select which group can create directories, edit and upload files."
+    ask.fr = "Choisissez quel groupe peut créer des dossiers, modifier ou ajouter des fichiers."
+    help.en = "This can be changed later via the webadmin."
+    help.fr = "Vous pourrez changer ceci plus tard via la webadmin."
     type = "group"
     default = "all_users"
 
@@ -67,6 +69,7 @@ ram.runtime = "50M"
     [resources.permissions]
     main.url = "/"
     post.url = "/post"
+    post.show_tile = false
 
     [resources.apt]
     packages = "ffmpeg"
