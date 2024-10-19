@@ -33,7 +33,7 @@ A fast and simple webserver for your files, that's dependency-free and with unde
     ✨ PWA enabled
 
 
-**Versión actual:** 1.1.2~ynh1
+**Versión actual:** 1.1.2~ynh2
 
 ## Capturas
 
@@ -47,7 +47,7 @@ A fast and simple webserver for your files, that's dependency-free and with unde
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/gossa_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/gossa_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
