@@ -5,7 +5,7 @@ name = "Gossa"
 description.en = "Fast and simple webserver for your files"
 description.fr = "Serveur web simple et rapide pour vos fichiers"
 
-version = "1.1.2~ynh1"
+version = "1.1.2~ynh2"
 
 maintainers = []
 
@@ -32,6 +32,12 @@ ram.runtime = "50M"
     help.fr = "Vous devez activer site public si vous souhaitez connecter un lecteur client à Gossa. Vous pourrez changer ceci plus tard via la webadmin."
     type = "group"
     default = "visitors"
+
+    [install.init_post_permission]
+    help.en = "Select which group can create directories, edit and upload files. This can be changed later via the webadmin."
+    help.fr = "Choisissez quel groupe peut créer des dossiers, modifier ou ajouter des fichiers. Vous pourrez changer ceci plus tard via la webadmin."
+    type = "group"
+    default = "all_users"
 
 [resources]
         [resources.sources.main]
@@ -60,6 +66,7 @@ ram.runtime = "50M"
 
     [resources.permissions]
     main.url = "/"
+    post.url = "/post"
 
     [resources.apt]
     packages = "ffmpeg"
