@@ -5,7 +5,9 @@ No se debe editar a mano.
 
 # Gossa para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/gossa.svg)](https://ci-apps.yunohost.org/ci/apps/gossa/) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/gossa.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/gossa.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/gossa)](https://ci-apps.yunohost.org/ci/apps/gossa/)
+![Estado funcional](https://apps.yunohost.org/badge/state/gossa)
+![Estado En Mantención](https://apps.yunohost.org/badge/maintained/gossa)
 
 [![Instalar Gossa con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=gossa)
 
