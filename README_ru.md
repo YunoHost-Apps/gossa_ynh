@@ -5,7 +5,9 @@
 
 # Gossa для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/gossa.svg)](https://ci-apps.yunohost.org/ci/apps/gossa/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/gossa.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/gossa.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/gossa)](https://ci-apps.yunohost.org/ci/apps/gossa/)
+![Состояние работы](https://apps.yunohost.org/badge/state/gossa)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/gossa)
 
 [![Установите Gossa с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=gossa)
 
@@ -33,7 +35,7 @@ A fast and simple webserver for your files, that's dependency-free and with unde
     ✨ PWA enabled
 
 
-**Поставляемая версия:** 1.1.2~ynh1
+**Поставляемая версия:** 1.1.2~ynh2
 
 ## Снимки экрана
 

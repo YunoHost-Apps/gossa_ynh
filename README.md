@@ -5,7 +5,9 @@ It shall NOT be edited by hand.
 
 # Gossa for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/gossa.svg)](https://ci-apps.yunohost.org/ci/apps/gossa/) ![Working status](https://ci-apps.yunohost.org/ci/badges/gossa.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/gossa.maintain.svg)
+[![Integration level](https://apps.yunohost.org/badge/integration/gossa)](https://ci-apps.yunohost.org/ci/apps/gossa/)
+![Working status](https://apps.yunohost.org/badge/state/gossa)
+![Maintenance status](https://apps.yunohost.org/badge/maintained/gossa)
 
 [![Install Gossa with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=gossa)
 
@@ -33,7 +35,7 @@ A fast and simple webserver for your files, that's dependency-free and with unde
     ✨ PWA enabled
 
 
-**Shipped version:** 1.1.2~ynh1
+**Shipped version:** 1.1.2~ynh2
 
 ## Screenshots
 

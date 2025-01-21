@@ -5,7 +5,9 @@
 
 # YunoHost 上的 Gossa
 
-[![集成程度](https://dash.yunohost.org/integration/gossa.svg)](https://ci-apps.yunohost.org/ci/apps/gossa/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/gossa.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/gossa.maintain.svg)
+[![集成程度](https://apps.yunohost.org/badge/integration/gossa)](https://ci-apps.yunohost.org/ci/apps/gossa/)
+![工作状态](https://apps.yunohost.org/badge/state/gossa)
+![维护状态](https://apps.yunohost.org/badge/maintained/gossa)
 
 [![使用 YunoHost 安装 Gossa](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=gossa)
 
@@ -33,7 +35,7 @@ A fast and simple webserver for your files, that's dependency-free and with unde
     ✨ PWA enabled
 
 
-**分发版本：** 1.1.2~ynh1
+**分发版本：** 1.1.2~ynh2
 
 ## 截图
 
