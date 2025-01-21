@@ -35,7 +35,7 @@ A fast and simple webserver for your files, that's dependency-free and with unde
     ✨ PWA enabled
 
 
-**Paketatutako bertsioa:** 1.1.2~ynh1
+**Paketatutako bertsioa:** 1.1.2~ynh3
 
 ## Pantaila-argazkiak
 

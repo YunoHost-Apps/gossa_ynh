@@ -34,7 +34,7 @@ Un serveur Web rapide et simple pour vos fichiers, sans dépendance et avec moin
 💑 configuration multi-compte facile, mode lecture seule
 ✨ PWA activé
 
-**Version incluse :** 1.1.2~ynh1
+**Version incluse :** 1.1.2~ynh3
 
 ## Captures d’écran
 

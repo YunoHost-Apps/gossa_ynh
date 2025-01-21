@@ -35,7 +35,7 @@ A fast and simple webserver for your files, that's dependency-free and with unde
     ✨ PWA enabled
 
 
-**分发版本：** 1.1.2~ynh1
+**分发版本：** 1.1.2~ynh3
 
 ## 截图
 

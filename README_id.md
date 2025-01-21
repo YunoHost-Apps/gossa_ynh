@@ -35,7 +35,7 @@ A fast and simple webserver for your files, that's dependency-free and with unde
     ✨ PWA enabled
 
 
-**Versi terkirim:** 1.1.2~ynh1
+**Versi terkirim:** 1.1.2~ynh3
 
 ## Tangkapan Layar
 
