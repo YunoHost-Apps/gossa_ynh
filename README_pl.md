@@ -35,7 +35,7 @@ A fast and simple webserver for your files, that's dependency-free and with unde
     ✨ PWA enabled
 
 
-**Dostarczona wersja:** 1.1.2~ynh2
+**Dostarczona wersja:** 1.1.2~ynh3
 
 ## Zrzuty ekranu
 

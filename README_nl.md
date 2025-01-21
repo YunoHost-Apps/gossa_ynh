@@ -35,7 +35,7 @@ A fast and simple webserver for your files, that's dependency-free and with unde
     ✨ PWA enabled
 
 
-**Geleverde versie:** 1.1.2~ynh2
+**Geleverde versie:** 1.1.2~ynh3
 
 ## Schermafdrukken
 
