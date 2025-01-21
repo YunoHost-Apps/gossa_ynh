@@ -5,7 +5,9 @@
 
 # Gossa для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/gossa.svg)](https://ci-apps.yunohost.org/ci/apps/gossa/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/gossa.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/gossa.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/gossa)](https://ci-apps.yunohost.org/ci/apps/gossa/)
+![Состояние работы](https://apps.yunohost.org/badge/state/gossa)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/gossa)
 
 [![Установите Gossa с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=gossa)
 
