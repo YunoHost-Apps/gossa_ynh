@@ -10,12 +10,13 @@ It shall NOT be edited by hand.
 
 Fast and simple webserver for your files
 
-[![Version: 1.1.2~ynh2](https://img.shields.io/badge/Version-1.1.2~ynh2-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/gossa/)
+[![Version: 1.1.2~ynh3](https://img.shields.io/badge/Version-1.1.2~ynh3-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/gossa/)
 
 <div align="center">
 <a href="https://apps.yunohost.org/app/gossa"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_more_info_on_the_appstore.svg"/></a>
 <a href="https://github.com/YunoHost-Apps/gossa_ynh/issues"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_report_an_issue.svg"/></a>
 </div>
+
 
 ## Screenshots
 ![Screenshot of Gossa](./doc/screenshots/screenshot.png)
